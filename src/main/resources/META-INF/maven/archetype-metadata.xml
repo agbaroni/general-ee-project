@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0"
+		      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		      xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0 https://maven.apache.org/xsd/archetype-descriptor-1.1.0.xsd"
+		      name="quickstart">
+  <requiredProperties>
+    <requiredProperty key="projectName" />
+  </requiredProperties>
+  <modules>
+    <module id="application" dir="application" name="application">
+      <fileSets>
+	<fileSet encoding="UTF-8">
+	  <directory>src</directory>
+	</fileSet>
+      </fileSets>
+    </module>
+    <module id="business" dir="business" name="business">
+      <fileSets>
+	<fileSet encoding="UTF-8">
+	  <directory>src</directory>
+	</fileSet>
+      </fileSets>
+    </module>
+    <module id="client" dir="client" name="client">
+      <fileSets>
+	<fileSet encoding="UTF-8">
+	  <directory>src</directory>
+	</fileSet>
+      </fileSets>
+    </module>
+    <module id="persistence" dir="persistence" name="persistence">
+      <fileSets>
+	<fileSet encoding="UTF-8">
+	  <directory>src</directory>
+	</fileSet>
+      </fileSets>
+    </module>
+    <module id="web" dir="web" name="web">
+      <fileSets>
+	<fileSet encoding="UTF-8">
+	  <directory>src</directory>
+	</fileSet>
+      </fileSets>
+    </module>
+  </modules>
+</archetype-descriptor>
